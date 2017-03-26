@@ -1,0 +1,14 @@
+lado1= input("informe o primeiro lado do triangulo")
+lado2= input("Informer o segundo lado do triangulo")
+lado3 = input("informe o terceiro lado")
+
+
+if lado1 == lado2 and lado1 == lado3:
+     print('Triângulo Equilátero')
+elif lado1 == lado2 and lado2 == lado3 and lado1 == lado3:
+     print("Triângulo Isósceles")
+elif lado1 != lado2 and lado3 != lado1 and lado2 != lado3:
+     print ("Triângulo Escaleno")
+
+else:
+    print ('É impossivel ser um triângulo')
