@@ -1,0 +1,22 @@
+print("============mercadinho jucimarjr ===========")
+print("morango = 2.50")
+print("maca = 1.80")
+preco_fruta = float(input('Informe o preco da fruta conforme visto acima:'))
+kg_informado = int(input('quantos kilos deseja comprar?:'))
+
+
+calculo = (preco_fruta * kg_informado )
+desconto = (calculo / 10 )
+
+if calculo > 25 :
+    print("R$",desconto , "DE DESCONTO")
+else:
+    print("obrigado e volte sempre!")
+
+if  kg_informado > 8:
+    print("voce ganhou um desconto de 10%")
+else:
+    print("Agradecemos pelas suas compras!!!")
+
+
+
