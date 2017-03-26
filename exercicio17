@@ -1,0 +1,7 @@
+ano = int(input('ano:'))
+
+
+if ano % 4 == 0 and ano % 100 and ano % 400  :
+    print("este ano e bisexto")
+else:
+    print("este ano nao e bisexto")
